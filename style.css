@@ -1,4 +1,101 @@
-
-body {
-  font-family: "saira", serif;
+body{
+  background-color: darkslateblue;
+  color:white;
 }
+
+h1{
+  font-size:70px;
+  text-align: center;
+}
+
+
+
+.heading{
+  font-size:20px;
+  text-align:center;
+}
+
+.one img{
+  width: 900px;
+}
+.one{
+  display:flex;
+  flex-wrap:nowrap;
+  justify-content:center;
+}
+
+.credits{
+  color:grey;
+  font-size:13px;
+}
+
+.two img{
+  width:400px;
+}
+
+.three img{
+  width:700px;
+}
+
+.four img{
+  width:800px;
+}
+
+.five img{
+  width:600px;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+overflow:hidden;
+background-color:rgb(112, 101, 185);
+text-align:center;
+}
+
+ul li{
+  display:inline-block;
+}
+
+ul li a{
+  display:block;
+  font-size:23px;
+  color:white;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+
+ul li a:hover{
+  text-decoration:underline;
+}
+
+.jump a{
+  color:white;
+  text-decoration:none;
+  font-size:17px;
+  background-color:rgb(112, 101, 185);
+  padding:2%;
+  display:block;
+  text-align:center;
+}
+
+.jump a:hover{
+  text-decoration:underline;
+}
+
+footer a{
+  font-size:20px;
+  color:white;
+  text-decoration:none;
+}
+
+  footer{
+  background-color:rgb(112, 101, 185);
+}
+
+footer:hover{
+  text-decoration:underline;
+}
+
